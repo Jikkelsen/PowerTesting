@@ -53,5 +53,5 @@ foreach($Line in $HourlyPlatinum)
 $Chart.Series.Add($Series)
 
 # Finally save and open
-$Chart.SaveImage("Images\CPUUtilizations.png", "png")
+$Chart.SaveImage(".\psu\Images\CPUUtilizations.png", "png")
 Start-Process .\Images\CPUUtilizations.png
