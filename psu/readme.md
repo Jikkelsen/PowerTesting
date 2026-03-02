@@ -34,14 +34,14 @@ All tests were run for three days straight. I wanted to make sure that fluctuati
 
 Plotting the data from all the datapoints in just a single run, results in a line that's not usable to me. A measurement every 30 second for three days is 8640 points of data, which results in a thick line, that's all over the place, as seen here.
 
-BRONZNE.PNG
+![BRONZNE.PNG](https://github.com/Jikkelsen/PowerTesting/blob/master/psu/Images/Bronze.png?raw=true)
 
 I've decided to aggregate data for each hour of the three runs, and plot the averages for each run. Doing this loses resultion in the measurements, but brings clarity to the graphs, which is a good tradeoff in my book.
 Addtionally, and perhaps more importantly, I also get rid of any measurements that failed due to a sometimes flay Shelly Plug, which resulted in a line, where the measurement read "0" for all noted datapoints. 
 
 Therefore, plotting the aggregated result of the three runs, results in a graph that looks like this:
 
-BRONZEGOLDANDPLATINUM.PNG
+![BRONZEGOLDANDPLATINUM.PNG](https://github.com/Jikkelsen/PowerTesting/blob/master/psu/Images/BronzeGoldAndPlatinum.png)
 
 Comparing my findings to the [efficency ratings of PSUs](https://forum.level1techs.com/uploads/default/original/4X/b/0/3/b03299564aafbb1d57d8daa608a897aaebdcc39d.png), as expected the bronze PSU uses the most amount of power, with a larger jump to gold PSU, and then again a smaller jump to Platinum PSU.
 
