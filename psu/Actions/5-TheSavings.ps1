@@ -23,7 +23,7 @@ $WattSaving           = $SumBronzeHourly.Average - $SumPlatinumHourly.Average
 $SavedWattHoursDay    = $WattSaving * 24 
 $SavedkWhDay          = $SavedWattHoursDay / 1000
 $SavedkWhYear         = $SavedkWhDay * 365
-$CurrentPowerPrice    = 1.23 # https://elpris2alt.wen.dk/
+$CurrentPowerPrice    = 0.26 # https://elpris2alt.wen.dk/
 
 $SavedDollarsPerYear  = [System.Math]::Round($SavedkWhYear * $CurrentPowerPrice,2)
 Write-Host ("`n`n" + 'You save $' + $SavedDollarsPerYear + ' per year!' + "`n`n") -BackgroundColor Green

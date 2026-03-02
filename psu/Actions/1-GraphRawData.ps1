@@ -29,5 +29,5 @@ foreach($Line in $BronzePSU)
 $Chart.Series.Add($Series)
 
 # Finally save and open
-$Chart.SaveImage(".\Images\RawBronze.png", "png")
+$Chart.SaveImage("psu\Images\RawBronze.png", "png")
 Start-Process .\Images\RawBronze.png
