@@ -30,7 +30,7 @@ The storage machine currently acts purely as a SAN array, backing a handful of v
 
 All tests were run for three days straight. I wanted to make sure that fluctuating CPU times did not mess with the results, so here is first a graph of the three runs CPU activity time
 
-CPUUTILIZATIONS
+![CPUUTILIZATIONS.PNG](https://github.com/Jikkelsen/PowerTesting/blob/master/psu/Images/RawBronze.png?raw=true)
 
 Plotting the data from all the datapoints in just a single run, results in a line that's not usable to me. A measurement every 30 second for three days is 8640 points of data, which results in a thick line, that's all over the place, as seen here.
 
