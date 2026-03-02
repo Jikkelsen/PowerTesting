@@ -1,6 +1,6 @@
 # PSU Testing
 
-*Too long did not read? Watch this post as a video instead*
+*Too long did not read? Watch this post as a video instead - see here: [link](https://www.youtube.com/watch?v=sWsb7dHjux0)*
 
 Looking to further understand if the [efficiency ratings of different PSUs](https://forum.level1techs.com/uploads/default/original/4X/b/0/3/b03299564aafbb1d57d8daa608a897aaebdcc39d.png) actually correlated with real world savings, I decided to try it out for my self.
 
